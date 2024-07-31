@@ -13,6 +13,8 @@ public interface HouseholdMapper {
     @Mapping(target = "people", source = "personIds", qualifiedByName = "resolvePeople")
     Household map(Household source, @Context List<Address> addresses, @Context List<Person> people);
 
+    List<Household> map(List<Household> source, @Context List<Address> addresses, @Context List<Person> people);
+
     @Named("resolveAddress")
     default Address resolveAddress(String addressId, @Context List<Address> addresses) {
         return addresses.stream()
