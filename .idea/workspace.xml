@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5209d9bd-7131-4725-8f44-81793651666e" name="Changes" comment="Creating mapping">
+    <list default="true" id="5209d9bd-7131-4725-8f44-81793651666e" name="Changes" comment="Handling multiple">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/ArticleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/PersonDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested2/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested2/CityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested2/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested2/HouseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/nested2/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/nested/ArticleMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/nested2/CityMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HouseholdMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HouseholdMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/HouseholdMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/HouseholdMapperTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,28 +60,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.HouseholdMapperTest.map.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HouseholdMapperTest.resolveAddress.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/java/MapStructExample/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ArticleMapperTest.articleToArticleDto.executor": "Run",
+    "JUnit.CityMapperTest.map.executor": "Run",
+    "JUnit.HouseholdMapperTest.executor": "Run",
+    "JUnit.HouseholdMapperTest.map.executor": "Run",
+    "JUnit.HouseholdMapperTest.resolveAddress.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/java/MapStructExample/src/main/java/org/example/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.nested2" />
+      <recent name="org.example.nested" />
+      <recent name="org.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.nested" />
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HouseholdMapperTest">
+  <component name="RunManager" selected="JUnit.CityMapperTest.map">
+    <configuration name="ArticleMapperTest.articleToArticleDto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MapStructExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.nested.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.nested" />
+      <option name="MAIN_CLASS_NAME" value="org.example.nested.ArticleMapperTest" />
+      <option name="METHOD_NAME" value="articleToArticleDto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityMapperTest.map" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MapStructExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.nested2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.nested2" />
+      <option name="MAIN_CLASS_NAME" value="org.example.nested2.CityMapperTest" />
+      <option name="METHOD_NAME" value="map" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HouseholdMapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MapStructExample" />
       <extension name="coverage">
@@ -119,6 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CityMapperTest.map" />
+        <item itemvalue="JUnit.ArticleMapperTest.articleToArticleDto" />
         <item itemvalue="JUnit.HouseholdMapperTest" />
         <item itemvalue="JUnit.HouseholdMapperTest.map" />
         <item itemvalue="JUnit.HouseholdMapperTest.resolveAddress" />
@@ -142,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722391554170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Handling multiple">
+      <option name="closed" value="true" />
+      <created>1722393172757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722393172757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +222,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating mapping" />
+    <MESSAGE value="Handling multiple" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling multiple" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
